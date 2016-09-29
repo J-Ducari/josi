@@ -1,0 +1,93 @@
+.new-propositions-area div{
+    width: 16%;
+    border:1px ridge #b7b7b7;
+    padding: 10px 0px;
+}
+.new-propositions-area div a {
+    display: block;
+    text-decoration: none;
+    width: 86%;
+    margin: 0 auto;
+    position: relative;
+}
+.new-propositions-header-text {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #353535;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.new-propositions-header-text span:first-child {
+    color:#63a464;
+    float: left;
+    text-transform: capitalize;
+}
+
+.new-propositions-header-text span:first-child span{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url('../images/icons.png') no-repeat 43% 31%;
+}
+.new-propositions-header-text .proposition-art {
+    float: right;
+    font-size: 12px;
+}
+.proposition-description{
+    font-size: 14px;
+    font-weight: 900;
+    color: #353535;
+    margin-bottom: 5px;
+    display: block;
+    height:55px;
+    overflow: hidden;
+}
+.proposition-price {
+    color:#c2211f;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.new-propositions .all-new-propositions {
+    color:#c2211f;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.new-propositions-area div img{
+    width: 100%;
+}
+/*стили которые придется удалить после подключения js*/
+.new-propositions-area {
+    float: left;
+    position: relative;
+}
+.new-propositions-area div {
+    float: left;
+    margin-right: 4.8%;
+}
+.new-propositions .all-new-propositions {
+    float: right;
+}
+.new-propositions-area:last-child {
+    margin-right: 0px;
+}
+
+.new-propositions-area .left, .new-propositions-area .right {
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    top:50%;
+}
+.new-propositions-area .left {
+    left: -5%;
+    background: url('../images/icons.png') no-repeat 33% 0%;
+}
+.new-propositions-area .right {
+    right: -5%;
+    background: url('../images/icons.png') no-repeat 46% 0%;
+}
